@@ -1,0 +1,141 @@
+header {
+  width: 100%;
+  padding: 20px;
+  color: #333;
+  background:white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 24px;
+  max-width: 960px;
+}
+.group{
+  overflow: auto;
+  clear: both;
+  color: #fff;
+  background: #394549;
+  width: 100%;
+  height: 7%;
+ 
+ }
+
+ .left-column{
+   width: 48%;
+   float:left;
+   text-align: center;
+   margin: 5px;
+   
+ }
+
+ .right-column{
+   width: 48%;
+   float:left;
+ }
+
+
+ body{
+   width: 100%;
+   margin: 0 auto;
+   font-family: Arial, Helvetica, sans-serif;
+   background: url(../images/wild_oliva_@2X.png);
+   max-width: 960px;
+   height: 100%;
+   
+ }
+ 
+ #form {
+  padding: 20px;
+  margin-bottom: 20px;
+  background:white;
+ }
+ 
+ button{
+   background:#4aaaa5;;
+ }
+ 
+ h1{
+   color: #4aaaa5;
+ }
+ 
+ .header-name {
+   color: #fff;
+   font-size: 20px;
+   background-color: #4aaaa5;
+   width: 300px;
+   height: 75px;
+   text-align: center;
+   line-height: 75px;
+   margin-bottom: -20px;
+ }
+ 
+ .header-nav{
+   float: right;
+   line-height: 1px;
+
+ }
+ .header-about{
+   text-align: left;
+   border-bottom: 2px solid gray;
+ }
+ .portfolio1{
+  background:url(http://lorempixel.com/125/125/cats/8/cc/);
+  height: 125px;
+  width: 125px;
+  text-align:center;
+  line-height: 125px;
+  display: inline-block;
+  margin: 4px;
+  
+}
+
+ .portfolio2{
+  background: url(http://lorempixel.com/124/125/cats/2/cc);
+  height: 125px;
+  width: 125px;
+  text-align:center;
+  line-height: 125px;
+  display: inline-block;
+  margin: 4px;
+  
+ }
+
+ .portfolio3{
+  background: url(http://lorempixel.com/125/125/cats/1/cc);
+  height: 125px;
+  width: 125px;
+  text-align:center;
+  line-height: 125px;
+  display: inline-block;
+  margin: 4px;
+  }
+
+  .portfolio4{
+    background: url(http://lorempixel.com/125/125/cats/9/cc);
+    height: 125px;
+    width: 125px;
+    text-align:center;
+    line-height: 125px;
+    display: inline-block;
+    margin: 4px;
+    
+  }
+
+  .container{
+    position: relative;
+  }
+
+  .text-block{
+    background-color: aqua;
+    display: inline;
+    color: white;
+    text-align: center;
+    
+  }
+  .footer{
+    height: 50px;
+    border-top: 30px solid #4aaaa5;
+  }
+  .push{
+    height: 50px;
+  }
+
+  
+
