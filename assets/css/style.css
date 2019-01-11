@@ -5,7 +5,7 @@ header {
   background:white;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 24px;
-  max-width: 960px;
+
 }
 .group{
   overflow: auto;
@@ -14,6 +14,7 @@ header {
   background: #394549;
   width: 100%;
   height: 7%;
+  margin-top:20px;
  
  }
 
@@ -36,15 +37,14 @@ header {
    margin: 0 auto;
    font-family: Arial, Helvetica, sans-serif;
    background: url(../images/wild_oliva_@2X.png);
-   max-width: 960px;
    height: 100%;
-   
  }
  
  #form {
   padding: 20px;
   margin-bottom: 20px;
   background:white;
+  margin-top:20px;
  }
  
  button{
@@ -69,11 +69,18 @@ header {
  .header-nav{
    float: right;
    line-height: 1px;
+   margin-right: 35px;
 
  }
  .header-about{
    text-align: left;
    border-bottom: 2px solid gray;
+ }
+
+ .header-portfolio{
+   text-align: left;
+   border-bottom: 2px solid gray;
+   border-top: 15px solid #333;
  }
  .portfolio1{
   background:url(http://lorempixel.com/125/125/cats/8/cc/);
@@ -82,7 +89,7 @@ header {
   text-align:center;
   line-height: 125px;
   display: inline-block;
-  margin: 4px;
+  margin: 8px;
   
 }
 
@@ -93,7 +100,7 @@ header {
   text-align:center;
   line-height: 125px;
   display: inline-block;
-  margin: 4px;
+  margin: 8px;
   
  }
 
@@ -104,7 +111,7 @@ header {
   text-align:center;
   line-height: 125px;
   display: inline-block;
-  margin: 4px;
+  margin: 8px;
   }
 
   .portfolio4{
@@ -114,12 +121,17 @@ header {
     text-align:center;
     line-height: 125px;
     display: inline-block;
-    margin: 4px;
+    margin: 8px;
     
   }
 
   .container{
     position: relative;
+    background: #333;
+    margin-bottom: 50px;
+    border-bottom: 30px solid #333;
+    margin-top: 20px;
+
   }
 
   .text-block{
@@ -131,11 +143,18 @@ header {
   }
   .footer{
     height: 50px;
-    border-top: 30px solid #4aaaa5;
+    width: 100%;
+    background: #4aaaa5;
   }
   .push{
     height: 50px;
   }
+.main-container{
+  width: 960px;
+  margin: 0 auto;
+  min-height: 100%;
+}
 
-  
+h1{
 
+}
